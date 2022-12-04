@@ -1,0 +1,15 @@
+:root {
+    --color-width: 150px;
+    --clor-height: 150px;
+}
+.select-color {
+    cursor: pointer;
+}
+
+.ECcolor {
+    width: var(--color-width);
+    height: var(--clor-height);
+    border-radius: 5%;
+    border: 2.5px solid black;
+    box-shadow:  3px 3px 20px 3px #7e7d7d;
+}
